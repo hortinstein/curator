@@ -18,6 +18,7 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "os-monitor": "~0.1.1"
   }
 }
