@@ -1,1 +1,2 @@
-Curator: Swarmite type that manages other swarm nodes and routes traffic between them.  
+supplement module to swarmlicant, a mode of sorts.
+	a curator represents one rotuer node in the riak cluster that services traffic to the troves
