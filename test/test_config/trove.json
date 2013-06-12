@@ -1,0 +1,35 @@
+{
+	"provider_info": {
+		"provider_id": "digital_ocean",
+		"region_id": 1,
+		"api_info": {
+			"client_key": "asdfasfa",
+			"api_key": "asfasd"
+		},
+		"vm_image_id": 174391
+	},
+	"name": "TEST-dyson",
+	"type": "curator",
+	"user": "hortinstein",
+	"application_servers": ["90.2.2.21", "90.2.2.22"],
+	"storage_backend": "riak_kv_eleveldb_backend",
+	"port": 8093,
+	"init_cookie": "justatestcookie",
+	"username": "hortinstein",
+	"passcookie": "justatestpasscookie",
+	"init": "true",
+	"schematic": {
+		"troves": [{
+				"ip_address": "127.0.0.1",
+				"id": 216538
+			}, {
+				"ip_address": "127.0.0.1",
+				"id": 216539
+			}
+		],
+		"curator": {
+			"ip_address": "127.0.0.1",
+			"id": 216540
+		}
+	}
+}
