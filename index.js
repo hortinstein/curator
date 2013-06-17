@@ -1,11 +1,11 @@
-var proxy = require('http_proxy');
+var proxy = require('http-proxy');
 
 var curator = {};
 module.exports = curator;
 
 var addresses = [];
 curator.init = function(config, callback) {
-
+	//callback();
 };
 
 curator.setup_proxy_server = function(troves, port, callback, client_ports) {

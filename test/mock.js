@@ -15,6 +15,6 @@ mock.init = function(name, port,callback) {
 	});
 	server.listen(port, function() {
 		console.log('%s listening at %s', server.name, server.url);
-		callback();
+		callback(undefined,server.url);
 	});
-}
+};

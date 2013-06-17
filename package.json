@@ -21,6 +21,8 @@
     "mocha": "*",
     "os-monitor": "~0.1.1",
     "process-monitor": "~0.3.0",
-    "http-proxy": "~0.10.2"
+    "http-proxy": "~0.10.2",
+    "should": "~1.2.2",
+    "restify": "~2.6.0"
   }
 }
