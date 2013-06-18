@@ -29,7 +29,7 @@ describe('mock riak load balancer', function() {
 describe('curator initialize', function() {
 	it('should initial a curator', function(done) {
 		curator.init(config, function(e, r) {
-			//console.log(e,r);
+			console.log(e,r);
 			done();
 		});
 	});
