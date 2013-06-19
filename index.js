@@ -31,8 +31,8 @@ curator.init = function(config, callback) {
 		} else {
 			trove_addresses.push('http://' + trove.ip_address + ':' + config.port)
 		}
-		proxy.createServer(proxy_function).listen(1231);
 	}
+	proxy.createServer(proxy_function).listen(1231);
 	callback(null, curator_address) //placeholder really should return something usefull
 };
 
