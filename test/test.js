@@ -59,11 +59,10 @@ describe('curator', function() {
 		};
 		async.times(100, function(n, next) {
 			multi_req(function(o) {
-				s = new String(o)
-				switch (s) {
-					case "mock1": console.log(typeof(s)); break;
-					case 'mock2': res.mock2 = (res.mock2+1); break;
-					case 'mock3': res.mock3 = (res.mock3+1); break;
+				switch (o) {
+					case "\"mock1\"": res.mock1 = (res.mock1+1); break;
+					case "\"mock2\"": res.mock2 = (res.mock2+1); break;
+					case "\"mock3\"": res.mock3 = (res.mock3+1); break;
 				}
 				next();
 			});
