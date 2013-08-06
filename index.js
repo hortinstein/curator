@@ -62,6 +62,9 @@ curator.init = function(config, callback) {
 curator.update = function(config, callback) {
 
 };
+curator.ping = function(config, callback) {
+	callback(null,'pong')
+};
 
 //Function Placeholder
 //needs to add a trove to an existing server
