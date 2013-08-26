@@ -62,8 +62,8 @@ curator.init = function(config, callback) {
 curator.update = function(config, callback) {
 
 };
-curator.ping = function(config, callback) {
-	callback(null,'pong')
+curator.ping = function(callback) {
+	callback(null,"\"pong\"");
 };
 
 //Function Placeholder
