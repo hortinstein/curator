@@ -63,7 +63,7 @@ curator.update = function(config, callback) {
 
 };
 curator.ping = function(callback) {
-	callback(null,"\"pong\"");
+	callback(null,"pong");
 };
 
 //Function Placeholder
